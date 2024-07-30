@@ -9,7 +9,7 @@ import {
 
 const FrequentQuestions = () => {
   return (
-    <section className="flex flex-col md:items-center md:justify-center bg-primary-faq py-[80px] pt-[50px] md:mt-0 mt-[60px]">
+    <section className="flex flex-col md:items-center md:justify-center bg-primary-faq py-[80px] pt-[50px] md:mt-0 mt-[30px]">
       <div className="md:mb-[64px] mb-[40px]">
         <h4 className="text-text text-[24px] md:text-[40px] font-bold leading-[32.78px] md:leading-[54.64px] text-center px-[24px] w-[70%] md:w-full m-auto">
           Frequently Asked Questions

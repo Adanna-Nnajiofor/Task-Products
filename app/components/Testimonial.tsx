@@ -12,12 +12,12 @@ import Rating from "../../public/icons/star.png";
 
 const marqueeVariants1 = {
   animate: {
-    x: [0, 100],
+    x: [0, 80],
     transition: {
       x: {
         repeat: Infinity,
         repeatType: "mirror",
-        duration: 3,
+        duration: 6,
         ease: "linear",
         delay: 0.1,
       },
@@ -27,12 +27,12 @@ const marqueeVariants1 = {
 
 const marqueeVariants = {
   animate: {
-    x: [0, -200],
+    x: [0, -160],
     transition: {
       x: {
         repeat: Infinity,
         repeatType: "mirror",
-        duration: 3,
+        duration: 6,
         ease: "linear",
       },
     },
@@ -47,8 +47,10 @@ const Testimonial = () => {
           See what our users say about us
         </h4>
         <div className="relative w-[100vw] max-w-full overflow-x-hidden">
+          <div className="absolute left-[-75px] md:left-[-70px] w-[152px] md:w-[236px] h-full bg-white/70 z-10 rounded-[50%]"></div>
+          <div className="absolute right-[-75px] md:right-[-70px] w-[152px] md:w-[236px] h-full bg-white/70 z-10 rounded-[50%]"></div>
           <motion.div
-            className="flex flex-nowrap gap-[16px] w-full mb-[16px] whitespace-nowrap will-change-transform"
+            className="flex flex-nowrap gap-[16px] w-full mb-[16px] will-change-transform"
             variants={marqueeVariants}
             animate="animate"
           >
@@ -150,7 +152,7 @@ const Testimonial = () => {
           </motion.div>
 
           <motion.div
-            className="flex gap-[16px] w-full mb-[16px]"
+            className="flex gap-[16px] w-full mb-[16px] will-change-transform"
             variants={marqueeVariants1}
             animate="animate"
           >
@@ -253,7 +255,7 @@ const Testimonial = () => {
           </motion.div>
 
           <motion.div
-            className="flex gap-[16px] w-full mb-[16px]"
+            className="flex gap-[16px] w-full mb-[16px] will-change-transform"
             variants={marqueeVariants}
             animate="animate"
           >
