@@ -4,15 +4,6 @@ import usersIcon from "@/public/users.svg";
 import Image from "next/image";
 
 const Hero: React.FC = () => {
-  const userImages = [
-    "/User2.png",
-    "/User1.png",
-    "/Photo1.png",
-    "/Photo1.png",
-    "/User1.png",
-    "/Photo1.png",
-  ];
-
   return (
     <section className="w-full pt-[50px]  h-auto bg-gradient-to-b from-white to-[#FEF1E8] flex flex-col items-center justify-center px-4 md:px-8">
       <div className="  gap-[24px] w-full lg:w-[1068px] flex flex-col items-center justify-center">
