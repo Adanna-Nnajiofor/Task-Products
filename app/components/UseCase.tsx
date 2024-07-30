@@ -127,11 +127,11 @@ const UseCase: React.FC = () => {
   const [activeCase, setActiveCase] = useState<string>("Content Creators");
 
   return (
-    <section className="w-full h-auto mt-[100px] mx-auto gap-[10px] flex flex-col items-center">
-      <h1 className="font-manrope text-[40px] font-bold leading-[54.64px] text-center">
+    <section className="w-full h-auto mt-[60px] mx-auto gap-[10px] flex flex-col items-center">
+      <h1 className="font-manrope text-[30px] md:text-[40px] font-bold leading-[54.64px] text-center">
         Use Case
       </h1>
-      <div className="w-auto h-auto gap-[20px] mx-6 mt-4 flex flex-col items-center justify-center">
+      <div className="w-auto h-auto gap-[20px] mx-6 mt-2 flex flex-col items-center justify-center">
         <div className="w-full h-auto p-[8px] justify-between rounded-[28px] bg-gray-100 border border-gray-300 flex flex-col items-center md:flex-row">
           {useCasesTop.map((caseItem, index) => (
             <div

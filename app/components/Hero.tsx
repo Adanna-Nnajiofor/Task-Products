@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
   ];
 
   return (
-    <section className="w-full pt-[100px]  h-auto bg-gradient-to-b from-white to-[#FEF1E8] flex flex-col items-center justify-center px-4 md:px-8">
+    <section className="w-full pt-[50px]  h-auto bg-gradient-to-b from-white to-[#FEF1E8] flex flex-col items-center justify-center px-4 md:px-8">
       <div className="  gap-[24px] w-full lg:w-[1068px] flex flex-col items-center justify-center">
         <div className="gap-[16px] flex flex-col items-center">
           <h1 className="font-inter text-[32px] md:text-[48px] font-bold leading-[40px] md:leading-[58.09px] text-center text-[#101010]">
