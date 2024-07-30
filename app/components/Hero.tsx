@@ -1,6 +1,7 @@
 // components/Hero.tsx
 import React from "react";
 import usersIcon from "@/public/users.svg";
+import hero from "@/public/Uploaded video - Transcript 2.png";
 import Image from "next/image";
 
 const Hero: React.FC = () => {
@@ -28,11 +29,7 @@ const Hero: React.FC = () => {
         </div>
       </div>
       <div className="w-full h-auto max-w-[986px] mt-[30px]  border-[#FFF9FF] ">
-        <img
-          src="/Uploaded video - Transcript 2.png"
-          alt="Hero"
-          className="w-full h-full rounded-[36px]"
-        />
+        <Image src={hero} alt="Hero" className="w-full h-full rounded-[36px]" />
       </div>
     </section>
   );

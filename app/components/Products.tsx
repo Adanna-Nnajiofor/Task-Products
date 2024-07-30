@@ -1,6 +1,7 @@
 // components/Products.tsx
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
+import Image from "next/image";
 
 const products = [
   {
@@ -52,7 +53,7 @@ const Products: React.FC = () => {
   return (
     <section className="w-full h-auto mt-[70px] mx-auto gap-[32px] flex flex-col items-center justify-center">
       <div className="w-auto text-center flex flex-col items-center justify-center mx-6">
-        <h1 className="font-manrope text-[30px] md:text-[40px] font-bold text-center text-[#1F1F1F]">
+        <h1 className="font-manrope text-[30px] md:text-[40px] font-bold  text-center text-[#1F1F1F]">
           Explore Our Products
         </h1>
       </div>
@@ -63,9 +64,11 @@ const Products: React.FC = () => {
             className="w-auto  h-auto p-[24px] gap-[8px] rounded-[16px] bg-[#FAFAFA] flex flex-col"
           >
             <div className="w-full flex flex-col items-start">
-              <img
+              <Image
                 src={product.imageSrc}
                 alt={`Product ${index + 1}`}
+                width={64}
+                height={64}
                 className="w-[54px] md:w-[64px] md:h-[64px] object-cover "
               />
               <div className="w-full  flex-1 items-start mt-4">
