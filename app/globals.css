@@ -71,6 +71,19 @@
   }
 }
 
+.accordion[data-state="open"] svg:nth-child(1) {
+  display: none;
+}
+.accordion[data-state="open"] svg:nth-child(2) {
+  display: flex;
+}
+.accordion[data-state="closed"] svg:nth-child(1) {
+  display: flex;
+}
+.accordion[data-state="closed"] svg:nth-child(2) {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
