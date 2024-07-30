@@ -12,16 +12,15 @@ const Hero: React.FC = () => {
   ];
 
   return (
-    <section className="w-full  h-auto bg-gradient-to-b from-white to-[#FEF1E8] flex flex-col items-center justify-center px-4 md:px-8">
-      <div className="relative top-[180px] gap-[24px] w-full lg:w-[1068px] flex flex-col items-center justify-center">
+    <section className="w-full pt-[100px]  h-auto bg-gradient-to-b from-white to-[#FEF1E8] flex flex-col items-center justify-center px-4 md:px-8">
+      <div className="relative  gap-[24px] w-full lg:w-[1068px] flex flex-col items-center justify-center">
         <div className="gap-[16px] flex flex-col items-center">
           <h1 className="font-inter text-[32px] md:text-[48px] font-bold leading-[40px] md:leading-[58.09px] text-center text-[#101010]">
-            Unlock the Power of{" "}
-            <span className="text-[#F97316]">Your Content with AI</span>
+            Your All-In-One{" "}
+            <span className="text-[#F97316]"> Media Conversion Tool</span>
           </h1>
           <p className="font-manrope text-[16px] md:text-[20px] font-medium leading-[24px] md:leading-[27.32px] text-center text-[#1F1F1F]">
-            From text to video, audio to summaries, create engaging media in
-            seconds.
+            From text to video, audio to summaries - we’ve got you covered.
           </p>
           <button className="w-[135px] h-[48px] px-[16px] py-[8px] rounded-[6px] bg-[#F97316] text-white">
             Get Started
@@ -53,7 +52,7 @@ const Hero: React.FC = () => {
           </p>
         </div>
       </div>
-      <div className="w-full h-auto max-w-[986px] mt-[200px]  border-[#FFF9FF] ">
+      <div className="w-full h-auto max-w-[986px] mt-[50px]  border-[#FFF9FF] ">
         <img
           src="/Uploaded video - Transcript 2.png"
           alt="Hero"
