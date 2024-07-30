@@ -15,7 +15,7 @@ export default function MobileNav({ open, onClose }: ModalProps) {
       onClick={onClose}
     >
       <div
-        className={`absolute top-0 right-0 p-5 text-xl bg-[#F1F4F8] rounded-bl-3xl shadow-lg
+        className={`absolute z-20 top-0 right-0 p-5 text-xl bg-[#F1F4F8] rounded-bl-3xl shadow-lg
         transition-all max-w-md w-[80vw] h-auto transform origin-top
         ${open ? "scale-100 opacity-100" : "scale-110 opacity-0"}`}
         onClick={(e) => e.stopPropagation()}
