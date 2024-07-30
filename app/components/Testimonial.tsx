@@ -199,7 +199,7 @@ const Testimonial = () => {
               </div>
               <div className="mb-[12px]">
                 <p className="leading-[24px] text-[#09090B]">
-                  I&apod;ve tried a lot of video summarizers, but{" "}
+                  I&apos;ve tried a lot of video summarizers, but{" "}
                   <b>this one is by far the best!</b> It&apos;s , and it has all
                   the features I need. Game changer!
                 </p>
